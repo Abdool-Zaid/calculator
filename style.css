@@ -1,0 +1,40 @@
+/* primary button style */
+.input_b {
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+button {
+  aspect-ratio: 1;
+  width: 24%;
+  font-size: 75px;
+  border-radius: 100px;
+  color: rgb(15, 206, 206);
+  background-color: blueviolet;
+}
+#body {
+  background-color: rgb(24, 0, 46);
+
+  width: 500px;
+  border-width: 7px 7px 7px 7px;
+  border-color: silver;
+  border-style: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#output {
+  background-color: rgba(125, 104, 104, 0.232);
+  height: 300px;
+  width: 487px;
+  border-width: 7px 7px 7px 7px;
+  border-style: solid;
+  border-color: silver;
+}
+.functions {
+  background-color: rgb(15, 206, 206);
+  color: blueviolet;
+}
