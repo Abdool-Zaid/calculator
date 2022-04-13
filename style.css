@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&display=swap");
 /* primary button style */
 .input_b {
   display: flex;
@@ -14,6 +15,7 @@ button {
   border-radius: 100px;
   color: rgb(15, 206, 206);
   background-color: blueviolet;
+  font-family: "My Soul", cursive;
 }
 button:hover {
   background-color: #33103b5c;
@@ -44,6 +46,12 @@ button:active {
   border-width: 7px 7px 7px 7px;
   border-style: solid;
   border-color: silver;
+  background: rgba(163, 115, 163, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .functions {
   background-color: rgb(15, 206, 206);
