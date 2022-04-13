@@ -6,6 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+/* button style */
 button {
   aspect-ratio: 1;
   width: 24%;
@@ -22,6 +23,7 @@ button:active {
   background-color: #16051a5c;
   transform: translateY(2px);
 }
+/* base style */
 #body {
   background-color: rgb(24, 0, 46);
 
@@ -34,6 +36,7 @@ button:active {
   margin-right: 10px;
   margin-left: 10px;
 }
+/* screen style */
 #output {
   background-color: rgba(125, 104, 104, 0.232);
   height: 300px;
