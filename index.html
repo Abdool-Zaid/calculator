@@ -6,29 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+<script src="./index.js"></script>
   </head>
   <body>
     <div id="body">
       <div id="output"></div>
-      <div class="input_b">
-        <button>0</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="functions">-</button>
-        <button class="functions">=</button>
-        <button class="functions">+</button>
-        <button class="functions">x</button>
-        <button class="functions">÷</button>
-        <a href="https://www.wolframalpha.com/" target="_blank"
-          ><button class="functions">鬱</button></a
-        >
+      <div id="input_b">
+        <button  type="button" onclick="build('0')" >0</button>
+        <button  type="button" onclick="build('1')" >1</button>
+        <button  type="button" onclick="build('2')" >2</button>
+        <button  type="button" onclick="build('3')" >3</button>
+        <button  type="button" onclick="build('4')" >4</button>
+        <button  type="button" onclick="build('5')" >5</button>
+        <button  type="button" onclick="build('6')" >6</button>
+        <button  type="button" onclick="build('7')" >7</button>
+        <button  type="button" onclick="build('8')" >8</button>
+        <button  type="button" onclick="build('9')" >9</button>
+        <button  type="button" onclick="build('-')" class="functions">-</button>
+        <button  type="button" onclick="calc()" class="functions">=</button>
+        <button  type="button" onclick="build('+')" class="functions">+</button>
+        <button  type="button" onclick="build('*')" class="functions">x</button>
+        <button  type="button" onclick="build('/')" class="functions">÷</button>
+        <button  type="button" onclick="clr(sum)" class="functions">無</button>
       </div>
     </div>
   </body>
