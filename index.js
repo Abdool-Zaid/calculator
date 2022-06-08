@@ -11,7 +11,7 @@ function calc(){
    
 }
 function clr(){
-    document.getElementById("output").innerHTML= null;
+    document.getElementById("output").innerHTML= null; 
      sum = '';
 }
 function chng(col){

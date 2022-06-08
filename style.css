@@ -36,7 +36,7 @@ button:active {
 /* base style */
 #body {
   background-color: #18002e;
-
+  
   width: 500px;
   border-width: 7px 7px 7px 7px;
   border-color: silver;
@@ -60,9 +60,10 @@ button:active {
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-color: #efefe4d9;
-font-family: "My Soul", "cursive";
-font-size: 75px;
+  color: #efefe4d9;
+  font-family: "My Soul", "cursive";
+  font-size: 75px;
+ overflow-wrap: break-word;
 }
 .functions {
   background-color: rgb(15, 206, 206);
