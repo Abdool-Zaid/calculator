@@ -64,6 +64,7 @@ button:active {
   font-family: "My Soul", "cursive";
   font-size: 75px;
  overflow-wrap: break-word;
+ padding-left: 1%;
 }
 .functions {
   background-color: rgb(15, 206, 206);
